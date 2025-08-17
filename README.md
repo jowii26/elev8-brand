@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+# 🔧 Fullstack Project Tech Stack Overview
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🟩 Frontend (Client-Side)
 
-## Available Scripts
+⚛️ React
 
-In the project directory, you can run:
+Why: For building interactive user interfaces using reusable components.
 
-### `npm start`
+Benefit: Fast rendering, component-based structure, and great developer experience.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+🎨 Tailwind CSS
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Why: Utility-first CSS framework for rapid UI development.
 
-### `npm test`
+Benefit: Clean, responsive, and consistent styling without writing custom CSS.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+🛒 Local Storage
 
-### `npm run build`
+Why: To persist cart data even if the user refreshes the page.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Benefit: Improves user experience by saving session state on the client.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+🌐 Fetch API
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Why: To request product data from the backend (/api/products).
 
-### `npm run eject`
+Benefit: Enables dynamic data loading in React.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+🟨 Backend (Server-Side)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+🟧 Node.js
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Why: JavaScript runtime environment to run your backend logic.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Benefit: Allows writing server-side code using the same language as the frontend (JavaScript).
 
-## Learn More
+🟦 Express.js
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Why: Lightweight framework to build API routes and serve static files.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Benefit: Simplifies routing and middleware handling.
 
-### Code Splitting
+🧱 Build & Integration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+🛠️ create-react-app
 
-### Analyzing the Bundle Size
+Why: Boilerplate tool to scaffold a React app with zero config.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Benefit: Comes with Webpack, Babel, ESLint, and optimized production build out of the box.
 
-### Making a Progressive Web App
+📦 React Scripts
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Why: Compiles the React code into optimized static files.
 
-### Advanced Configuration
+Benefit: Prepares your frontend for deployment by creating a /build folder.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+🗂️ Static File Serving (via Express)
 
-### Deployment
+Why: Backend serves the React app (index.html and assets).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Benefit: Seamlessly combines frontend and backend into a single deployment.
 
-### `npm run build` fails to minify
+✅ Final Outcome
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This is a fullstack demo app:
+
+The frontend UI is built in React + Tailwind
+
+The backend is powered by Express.js
+
+They are fully integrated and served from one server 
+
+
