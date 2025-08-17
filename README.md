@@ -70,4 +70,9 @@ The backend is powered by Express.js
 
 They are fully integrated and served from one server 
 
+## Run Locally
+1. Clone the repo
+2. Install dependencies: `npm install`
+3. Start dev server: `npm start`
+
 
